@@ -1,4 +1,4 @@
-import { erros, mensagensErros } from "../erros/tipo-erros.js";
+import { erros, mensagensErros } from '../erros/tipo-erros.js';
 
 
 function validador(campo) {
