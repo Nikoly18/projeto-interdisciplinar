@@ -1,0 +1,36 @@
+.tipo-cliente__campos-radio {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.campos-radio__conjunto-radio {
+  align-items: center;
+  column-gap: 10px;
+  display: flex;
+  width: 50%;
+}
+
+.radio-button {
+  border: 1px solid var(--cor-secundaria);
+  border-radius: 50%;
+  cursor: pointer;
+  height: 16px;
+  transition: all .3s linear;
+  width: 16px;
+}
+
+.formulario__input-radio {
+  position: absolute;
+  left: -9999px;
+}
+
+.formulario__input-radio:checked + .radio-button {
+  background-color: var(--cor-secundaria);
+  transition: all .3s linear;
+}
+
+.radio-button:hover {
+  background-color: var(--cor-fundo-input);
+  transition: background-color .2s linear;
+}

@@ -1,0 +1,76 @@
+.formulario-cadastro {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+
+.formulario-login {
+  margin: 0 auto;
+  width: 40%;
+}
+
+.formulario-cadastro__lado-esquerdo {
+  border-right: 2px solid var(--cor-secundaria);
+  margin-right: 2rem;
+  padding-right: 2rem;
+}
+
+.formulario__campo-padrao {
+  display: flex;
+  flex-direction: column;
+}
+
+.campo__label-padrao {
+  color: var(--cor-secundaria);
+  margin: .35rem 0;
+}
+
+.campo__label-padrao--diminuido {
+  width: 80%;
+}
+
+.campo__input-padrao {
+  background-color: var(--cor-fundo-input);
+  border: none;
+  border-radius: 12px;
+  box-shadow: inset none, none;
+  margin: .25rem 0;
+  outline: none;
+  padding: .7rem;
+}
+
+.tipo-usuario__titulo, .tipo-servico__titulo {
+  margin-bottom: .5rem;
+}
+
+.tipo-usuario__container-radio {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tipo-servico__container-radio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.mensagem-erro {
+  color: rgba(255, 0, 0, 0.815);
+  font-size: 10px;
+}
+
+.sem-cadastro {
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 1rem;
+  text-align: right;
+}
+
+.sem-cadastro a {
+  text-decoration: none;
+  color: var(--cor-secundaria);
+}
+
+.sem-cadastro a:hover {
+  text-decoration: underline;
+}
