@@ -13,7 +13,12 @@ body {
 
 .logo {
     text-align: center;
-    width: 25%;
+}
+
+.logo__link-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #logo {
@@ -171,6 +176,7 @@ body {
 
 .carrossel img {
     cursor: pointer;
+    padding-block: 5rem;
 }
 
 .carrossel::-webkit-scrollbar {
@@ -198,4 +204,6 @@ body {
 
 h2 {
     font-size: 22px;
+    text-align: center;
+    margin-top: 2rem;
 }
